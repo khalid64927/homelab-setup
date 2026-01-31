@@ -1,0 +1,36 @@
+# Sensitive files - NEVER COMMIT
+*.key
+*.conf
+*_private.key
+*_public.key
+wireguard_*.key
+wireguard_*.conf
+
+# Backup files
+*.backup.*
+*.bak
+*~
+
+# Environment files
+.env
+*.env
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
